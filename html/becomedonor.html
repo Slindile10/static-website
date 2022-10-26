@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>become a donor</title>
+    <link rel="stylesheet" href="../css/becomedonor.css">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        
+
+        /* Modal Content */
+        .modal-content {
+          background-color: #fefefe;
+          margin: auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 20%;
+          height: 100px;
+          color: #000;
+        }
+
+        .loger {
+            color: #d60506;
+        }
+        
+        /* The Close Button */
+        .close {
+          color: black;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        </style>
+        
+
+</head>
+<body>
+
+    <!--navigation bar-->
+    <nav>
+        <img src="../images/social donors.svg" class="logo">
+        <ul>
+            <li><a href="../index.html" class="home">Home</a></li>
+            <li><a href="../html/becomedonor.html" class="become">Become a donor</a></li>
+            <li><a href="../html/bloodgroups.html" class="blood">Blood Groups</a></li>
+            <li><a href="../html/aboutus.html" class="about">About us</a></li>
+        </ul>
+
+        <input type="search" placeholder="Search available blood" class="bar">
+
+        
+        <a class="reg" href="../html/userreg.html">Sign Up</a>
+
+        
+            
+            <!-- Trigger/Open The Modal -->
+            <a class="log" id="myBtn">Sign In</a>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Do you want to log in as<br>
+        a <a href="../html/userlog.html" class="loger">donor</a>or an <a href="../html/adminlog.html" class="loger">administrator ?</a>
+    </p>
+  </div>
+
+</div>
+        
+    </nav>
+
+    <!--main text-image-->
+    <div class="first"><img src="../images/bannerpic.png (2).png"  class="first1"></div>
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+</script>
+
+
+<!-- adding becoming a donor information  -->
+
+<center>
+  <div class="bee">
+    <h1>Becoming a donor</h1>
+<br>
+<h2 class="h2">Are you already a donor?</h2>
+<p class="p1">Thank you for your participation in helping save lives by donating your 
+    blood.Please keep on donating blood as often as you can and keep tabs of
+    when the next clinic is happening in your. We will be sending you emails.
+</p>
+
+<br><br>
+<h2 class="h2">Are you thinking of becoming a donor but still are not sure?</h2>
+<p class="p1">Research about the statistics show that with a single donation you 
+    can save three lives, and without costing you a single sheiling.About 75% of the population
+    in johannesburg need bood ,whereas only 3% in that population are the donors.Find out more 
+    about all of this on our faceebook page and ask questions or visit one of our clinics that 
+    is nearest to you for more information.
+</p>
+
+<br><br>
+<h2 class="h2">Are you scared or really hate needles?</h2>
+<p class="p1">Many people have overcome the same kind of ordeal and have overcome it.If you have never 
+    donated before and are scared of needles then you will be happy to know that its is nothing
+    more than a little prick . And it most certainly worth it because , after all, it is for a good 
+    cause of saving lives.
+</p>
+
+<br>
+
+<h2 class="h2">To become a donor,</h2>
+<p class="p1">All you have to do is just just register, make a booking and you will be infomed
+    when the next clinic will be in your area.Keep in mind that we only
+    receive blood donations.
+</p>
+</div>
+</center>
+
+
+
+
+   
+
+   
+
+ 
+<!-- adding the footer -->
+    <img src="../images/Blood-donation-banner-image-800x300.png" class="banner">
+
+    <footer>
+        <div class="foot">
+            <h2>Site Map</h2>
+            <p><a href="../index.html">Home</a></p>
+            <p><a href="../html/becomedonor.html" >Become a donor</a></p>
+            <p><a href="../html/bloodgroups.html" >Blood Groups</a></p>
+            <p><a href="../html/aboutus.html" >About us</a></p>
+        </div>
+
+        <div class="foot">
+            <h2>Contact Us</h2>
+            <p>Whatsapp:083 305 3055</p>
+            <p>Call us:011 012 0123</p>
+            <p>Email us:</p>
+            <p>socialdonors101@gmail.com</p>
+        </div>
+
+        <div class="foot">
+            <h2>Folllow Us</h2>
+            <p><a>facebook</a></p>
+            <p><a>linked in</a></p>
+            <p><a>twitter</a></p>
+            
+        </div>
+
+        <div class="buttons">
+            <label>Subscribe to our news</label>
+
+            <div class="btn">
+                
+                <input type="email" placeholder="Enter your email" class="email">
+            </div>
+
+            <div class="btn">
+                <button class="subs">
+                Subscribe
+
+            </button>
+       </div>
+       <label>By subscribing you confirm that you<br>
+        have read and accept our terms and conditions</label>
+        </div>
+
+        
+    </footer>
+    <div class="foot2">
+        <img src="../images/social donors.svg" class="logo">
+        <p>© SOCIAL DONORS 2011-2021</p>
+        <p>Terms & Conditions</p>
+        <p>Privacy</p>
+        <p>us English </p>
+    </div>
+
+  
+
+
+</body>
+</html>

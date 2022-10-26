@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
+
+/* styling the nav bar */
+nav {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(185, 8, 8);
+    display: flex;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 5%;
+    border-radius: 15px;
+   
+}
+
+ul{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    gap: 8%;
+    margin-left: 4%;
+      
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    cursor: pointer;
+    color: pink ;
+}
+.home{
+    width: auto;
+    height:25% ;
+    background-color: #00003e;
+    overflow: hidden;
+    padding: 40% ;
+    border-radius: 30%;
+}
+
+.bar {
+    width: 20%;
+    height: 65%;
+    border-radius: 20px;
+    color: rgb(179, 0, 0);
+    border: solid;
+    border-color:#00003e;
+}
+
+.reg {
+    margin-left: 10%;
+}
+
+.log {
+    margin-left: 2%;
+}
+
+.first{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(223, 221, 221);
+   
+}
+
+.first1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* styling main image and text */
+
+
+
+
+.para1 {
+   
+    color: #00003e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    bottom: 55%;
+    left: 48%;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+/* below the main image */
+.insp{
+    width: 90%;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    
+}
+
+.para1 , .insp{
+    margin-left: 5%;
+
+}
+
+.text {
+    width: 90%;
+}
+
+.inspire {
+    background-color: rgb(226, 222, 222);
+    display: flex;
+    padding: 2%;
+   
+   
+}
+
+.inspirational-pic{
+    width: 50%;
+    border-radius: 5%;
+    
+}
+
+
+
+/* styling second section */
+.sec {
+    position: relative;
+    padding-left: 2%;
+    padding-bottom: 2%s;
+}
+
+.flex {
+    display: flex;
+}
+
+.head {
+    width: 60%;
+    text-align: justify;
+    margin-top: 2%;
+}
+/* styling section 2 image */
+
+.types {
+    margin-left:5% ;
+    width: 26%;
+    border-radius: 5%;
+    
+}
+
+.heading1{
+    color: rgb(180, 3, 3);
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+.para2 {
+    color: #00003e;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* styling the third section */
+
+.head1 {
+    width: 90%;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.third {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(209, 207, 207);
+    margin-top: 3%;
+    padding-bottom: 2%;
+}
+
+.circle {
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.third-1 {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.donate{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: rgb(180, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+/* styling the bannerpic */
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/* styling the footer */
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(180, 3, 3);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+h2{
+    padding-bottom: 7%;
+}
+
+.email {
+    width:75%;
+    height: 36px;
+    border-radius: 20px;
+}
+
+.subs {
+    width:75%;
+    height: 36px;
+    margin-top: 5%;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #00003e;
+    cursor: pointer;
+    border: solid;
+    border-color: #00003e;
+}
+
+label{
+    font-size: small;
+}
+
+.foot2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(180, 3, 3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

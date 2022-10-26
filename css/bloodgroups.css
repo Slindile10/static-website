@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
+
+/* styling the nav bar */
+nav {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(185, 8, 8);
+    display: flex;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 5%;
+    border-radius: 15px;
+   
+}
+
+ul{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    gap: 8%;
+    margin-left: 4%;
+      
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    cursor: pointer;
+    color: pink ;
+}
+.blood{
+    width: auto;
+    height:25% ;
+    background-color: #00003e;
+    overflow: hidden;
+    padding: 15px 8px 15px 8px;
+    border-radius: 30%;
+}
+
+.bar {
+    width: 20%;
+    height: 65%;
+    border-radius: 20px;
+    color: rgb(179, 0, 0);
+    border: solid;
+    border-color:#00003e;
+}
+
+.reg {
+    margin-left: 10%;
+}
+
+.log {
+    margin-left: 2%;
+}
+
+.first{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(223, 221, 221);
+   
+}
+
+.first1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* styling main content of the about us page*/
+
+.mara{
+    width: 90%;
+    background-color: lightgray;
+    text-align: justify;
+    padding: 2% 5% 2% 2%;
+    margin-top: 3%;
+    color: #00003e;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+
+h1{
+    color: #d60506;
+}
+
+.compa {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.comp{
+    border-radius: 5px;
+    margin-left: 14%;
+    margin-bottom: 2%;
+
+
+}
+
+.they {
+    margin-top: -70px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+    
+
+
+/* styling the bannerpic */
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/* styling the footer */
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(180, 3, 3);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+h2{
+    padding-bottom: 7%;
+}
+
+.email {
+    width:75%;
+    height: 36px;
+    border-radius: 20px;
+}
+
+.subs {
+    width:75%;
+    height: 36px;
+    margin-top: 5%;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #00003e;
+    cursor: pointer;
+    border: solid;
+    border-color: #00003e;
+}
+
+label{
+    font-size: small;
+}
+
+.foot2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(180, 3, 3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

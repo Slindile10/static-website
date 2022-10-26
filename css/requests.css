@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;   
+}
+
+/* styling the nav bar */
+nav {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(185, 8, 8);
+    display: flex;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 5%;
+    border-radius: 15px;
+   
+}
+
+ul{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    gap: 8%;
+    margin-left: 4%;
+      
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+a:hover {
+    cursor: pointer;
+    color: pink ;
+}
+
+
+.bar {
+    width: 20%;
+    height: 65%;
+    border-radius: 20px;
+    color: rgb(179, 0, 0);
+    border: solid;
+    border-color:#00003e;
+}
+
+.reg {
+    margin-left: 10%;
+}
+
+.log {
+    margin-left: 2%;
+}
+.become{
+    width: auto;
+    height:25% ;
+    background-color: #00003e;
+    overflow: hidden;
+    padding: 20%;
+    border-radius: 30%;
+}
+
+
+.first{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(223, 221, 221);
+   
+}
+
+.dash-dash {
+    position: absolute;
+    margin-top: -60px;
+    padding-left: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+    color: #00003e;
+}
+
+/* stying the top banner pic */
+.first1 {
+    
+    width: 100%;
+    height: 80px;
+}
+
+/* styling the  request table */
+
+
+table ,th, tr,td {
+
+    border: solid #00003e;
+    border-collapse: collapse;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+th {
+   background-color: #d60506;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   border-color: #00003e;
+}
+
+td{
+    height: 60px;
+}
+
+table{
+
+   width: 88%;
+   border-radius: 20px;
+}
+
+.name {
+    width: 250px;
+    height: 95px;
+}
+
+.phys-ad {
+
+    width: 275px;
+
+}
+
+.contact {
+
+    width: 150px;
+}
+
+.action{
+
+    width: 200px;
+}
+
+.pat {
+    background-color: rgb(229, 229, 229);
+}
+
+.vivi {
+    background-color: rgb(229, 229, 229);
+}
+
+.jj {
+    background-color: rgb(229, 229, 229);
+}
+
+.loki{
+    background-color: rgb(229, 229, 229);
+}
+
+.edit {
+    width: 75px;
+    height: 26px;
+    margin-left: 5px;
+    color: white;
+    background-color: green;
+    border: solid;
+    border-color: green;
+}
+
+.edit:hover {
+
+   opacity: 0.6;
+
+}
+
+.edit:active {
+
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+
+.delete{
+    width: 75px;
+    height: 26px;
+    margin-left: 5px;
+    color: white;
+    background-color: red;
+    border: solid;
+    border-color: red;
+
+
+}
+
+.delete:hover {
+
+    opacity: 0.6;
+ 
+ }
+ 
+ .delete:active {
+ 
+     cursor: pointer;
+     opacity: 0.4;
+ }
+
+ .ava{
+
+    font-size: small;
+    margin-top: 36px;
+
+ }
+
+ .req{
+
+    font-size: small;
+    color: #00003e;
+
+ }
+
+ .camp{
+
+    font-size: small;
+
+ }
+
+ .das {
+     padding-left: 75px;
+     list-style-type: none;
+ }
+
+ .the-table {
+    width: 95%;
+     margin-top: 5%;
+     margin-bottom: 3%;
+     background-color: lightgray;
+     padding: 4%;
+     border-radius: 5px;
+ }
+
+
+/* styling the bannerpic */
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/* styling the footer */
+
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(180, 3, 3);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+h2{
+    padding-bottom: 7%;
+}
+
+.email {
+    width:75%;
+    height: 36px;
+    border-radius: 20px;
+}
+
+.subs {
+    width:75%;
+    height: 36px;
+    margin-top: 5%;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #00003e;
+    cursor: pointer;
+    border: solid;
+    border-color: #00003e;
+}
+
+label{
+    font-size: small;
+}
+
+.foot2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(180, 3, 3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
